@@ -1,0 +1,29 @@
+.button {
+  background-color: hsl(172, 67%, 45%);
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  font-family: inherit;
+  color: hsl(183, 100%, 15%);
+  font-weight: bolder;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: hsl(172, 71%, 70%);
+}
+
+.total-cost {
+  color: hsl(172, 67%, 45%);
+}
+.text {
+  color: hsl(189, 41%, 97%);
+  font-size: 12px;
+}
+
+.error{
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}

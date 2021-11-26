@@ -1,0 +1,36 @@
+.main-input {
+  width: 100%;
+  height: 2rem;
+  padding: 4px 5px 4px 0;
+  border: none;
+  caret-color: hsl(183, 100%, 15%);
+  outline: none;
+  color:hsl(183, 100%, 15%);
+  font-weight: bolder;
+  font-family: inherit;
+  font-size: 1.1rem;
+}
+.main-input:focus {
+  border-bottom: hsl(184, 14%, 56%) solid 1.5px;
+}
+
+
+.main-input::-webkit-outer-spin-button,
+.main-input::-webkit-inner-spin-button {
+  /* -webkit-appearance: hidden;  */
+  display: none;
+}
+.main-input[type="number"] {
+  -moz-appearance: textfield;
+  text-align: right;
+} 
+.input-icon {
+  position: absolute;
+  padding: 5px 0 0 10px;
+  font-weight: bolder;
+}
+
+.card-label{
+    font-size: 10px;
+    color: hsl(186, 14%, 43%);
+}
